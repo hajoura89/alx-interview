@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """Lockboxes"""
 
+
 def canUnlockAll(boxes):
     """
     Determines if all the boxes can be opened.
 
     Parameters:
-    - boxes: A list of lists where each list represents a box and contains keys to other boxes.
+    - boxes: A list of lists where each list represents
+    a box and contains keys to other boxes.
 
     Returns:
     - True if all boxes can be opened, False otherwise.
@@ -29,7 +31,8 @@ def canUnlockAll(boxes):
         if not current_box or current_box >= n or current_box < 0:
             continue
 
-        # If the box is not already opened, update opened and add keys to unopened
+        # If the box is not already opened,
+        # update opened and add keys to unopened
         if current_box not in opened_boxes:
             unopened_boxes = unopened_boxes.union(boxes[current_box])
             opened_boxes.add(current_box)

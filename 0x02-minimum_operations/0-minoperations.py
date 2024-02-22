@@ -2,7 +2,7 @@
 """The Minimum Operations Challenge"""
 
 
-def min_operations_to_get_n_h(n):
+def minOperations(n):
     """Computes the minimum operations"""
     if not isinstance(n, int):
         return 0

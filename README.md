@@ -1,3 +1,3 @@
-# N Queens
+# ALX Interview
 
-This project contains interview coding challenges
+This repository contains a series of software developer interview challenges
